@@ -8,8 +8,18 @@ body{
 
 .digit{
     font-size: 100px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
 }
 
 #container{
     color: brown;
+}
+
+#btn-container{
+    text-align: center;
+    margin-top: 20px;
 }
