@@ -1,25 +1,56 @@
+/*Given style to the body elements.*/
 body{
-    background-color: aquamarine;
+    background-color: rgb(109, 220, 196);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+/*Add style to class digit*/
 .digit{
     font-size: 100px;
     font-weight: bold;
 }
+
+/*Add style to class txt*/
 .txt{
     font-size: 40px;
     font-weight: bold;
 }
 
+/*Add color to the id container*/
 #container{
     color: brown;
 }
 
+/*Add style to id btn-container*/
 #btn-container{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+/*Add style to class btn*/
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 15px;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+}
+
+/*Add background-color to id start */
+#start{
+    background-color: forestgreen;
+}
+
+/*Add background-color to id stop */
+#stop{
+    background-color: blue;
+}
+
+/*Add background-color to id reset */
+#reset{
+    background-color: red;
 }
